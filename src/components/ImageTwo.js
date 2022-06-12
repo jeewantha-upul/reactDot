@@ -27,20 +27,6 @@ function ImagetWO() {
     JSON.parse(localStorage.getItem("storingPoints") || null)
   );
 
-  // get all local storage stored data
-  useEffect(() => {
-    // let wholeArray = JSON.parse(localStorage.getItem("storingPoints") || null);
-    // setRetrievedAllPointData(wholeArray);
-    // wholeArray &&
-    //   wholeArray.map((singleObject) => {
-    //     console.log(singleObject);
-    //     if (singleObject.pointId == 658) {
-    //       console.log("found");
-    //     } else {
-    //       console.log("not found");
-    //     }
-    //   });
-  }, []);
   useEffect(() => {
     let singleMessage = {
       mId: Math.random() + 2,
